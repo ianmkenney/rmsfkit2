@@ -4,7 +4,7 @@ A short description of the project.
 """
 
 # Add imports here
-from .rmsfkit import canvas
+from .rmsfkit import RMSF
 
 # Handle versioneer
 from ._version import get_versions

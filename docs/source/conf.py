@@ -13,7 +13,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
 # Incase the project was not installed
-import rmsfkit2
+import rmsfkit
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
@@ -119,7 +119,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'rmsfkit2doc'
+htmlhelp_basename = 'rmsfkitdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -146,8 +146,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'rmsfkit2.tex', 'rmsfkit Documentation',
-     'rmsfkit2', 'manual'),
+    (master_doc, 'rmsfkit.tex', 'rmsfkit Documentation',
+     'rmsfkit', 'manual'),
 ]
 
 
@@ -156,7 +156,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'rmsfkit2', 'rmsfkit Documentation',
+    (master_doc, 'rmsfkit', 'rmsfkit Documentation',
      [author], 1)
 ]
 
@@ -167,8 +167,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'rmsfkit2', 'rmsfkit Documentation',
-     author, 'rmsfkit2', 'A short description of the project.',
+    (master_doc, 'rmsfkit', 'rmsfkit Documentation',
+     author, 'rmsfkit', 'A short description of the project.',
      'Miscellaneous'),
 ]
 

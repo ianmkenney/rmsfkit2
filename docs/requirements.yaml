@@ -1,4 +1,4 @@
-name: rmsfkit2-docs
+name: rmsfkit-docs
 channels:
 dependencies:
     # Base depends

@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rmsfkit2"
+name = "rmsfkit"
 description = "A short description of the project."
 license = {file = "LICENSE" }
 authors = [
